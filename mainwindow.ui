@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1079</width>
+    <height>758</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QDialogButtonBox" name="buttonBox">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>510</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="standardButtons">
+     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RegistrarUsuariopushButton">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>620</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/base.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/cooltext314535094768080.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="UsuariolineEdit">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>370</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>710</y>
+      <width>2</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout"/>
+   </widget>
+   <widget class="QLineEdit" name="contralineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>470</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-330</y>
+      <width>1081</width>
+      <height>1371</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="imagen.qrc">:/FONDO.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="multi">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>570</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/cooltext314535129579653.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>buttonBox</zorder>
+   <zorder>RegistrarUsuariopushButton</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>contralineEdit_2</zorder>
+   <zorder>UsuariolineEdit</zorder>
+   <zorder>multi</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1079</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuEdiciones">
+    <property name="title">
+     <string>Ediciones</string>
+    </property>
+    <widget class="QMenu" name="menuopciones">
+     <property name="title">
+      <string>opciones</string>
+     </property>
+     <addaction name="actionotra"/>
+    </widget>
+    <addaction name="actionventana_1"/>
+    <addaction name="menuopciones"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuEdiciones"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionventana_1">
+   <property name="text">
+    <string>ventana 1</string>
+   </property>
+  </action>
+  <action name="actionotra">
+   <property name="text">
+    <string>otra</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="imagen.qrc"/>
+ </resources>
+ <connections/>
+</ui>

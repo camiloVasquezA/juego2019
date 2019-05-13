@@ -1,0 +1,21 @@
+#ifndef GLOBAL_DEFINES_H
+#define GLOBAL_DEFINES_H
+
+#define XSIZE 1000.0
+#define YSIZE 667.0
+
+#define XBALL XSIZE/2
+#define YBALL (YSIZE/2)-20
+#define WBALL 20
+#define HBALL 20
+#define VXBALL 3
+#define VYBALL 3
+
+#define XPLATAFORM XSIZE*1/2
+#define YPLATAFORM YSIZE*7/8
+#define WPLATAFORM 150
+#define HPLATAFORM 20
+#define VXPLATAFORM 27
+#define VYPLATAFORM 0
+
+#endif // GLOBAL_DEFINES_H
